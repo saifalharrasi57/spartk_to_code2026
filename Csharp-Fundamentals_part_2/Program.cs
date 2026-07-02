@@ -67,32 +67,49 @@ class Program
         // Console.WriteLine("Access Granted");
         
         //task5 
-        int attempt = 0;
-        int attempted_number;
-       
-        do
+        //int attempt = 0;
+        //int attempted_number;
+        //
+        //do
+        //{
+        //    Console.Write("enter the secret number");               
+        //    attempted_number = int.Parse(Console.ReadLine());   
+        //
+        //    if (attempted_number > 42)
+        //    {
+        //        Console.WriteLine("too high");
+        //    }
+        //    else if (attempted_number < 42)
+        //    {
+        //        Console.WriteLine("too low");
+        //    }
+        //    
+        //} while (attempted_number != 42);
+        //Console.WriteLine("that's correct");
+        //
+        
+        // task6
+        try
         {
-            Console.Write("enter the secret number");               
-            attempted_number = int.Parse(Console.ReadLine());   
+            Console.WriteLine("enter two number to devide ");
+            Console.Write("enter the first number : ");
+            int first_num = int.Parse(Console.ReadLine());
+            Console.Write("enter the second number : ");
+            double second_num = double.Parse(Console.ReadLine());
+            double result = first_num / second_num;
+            Console.WriteLine($"{first_num}/{second_num} = {result}");
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("can't divide by zero");
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("invalid input ");
+        }
+    }  } 
 
-            if (attempted_number > 42)
-            {
-                Console.WriteLine("too high");
-            }
-            else if (attempted_number < 42)
-            {
-                Console.WriteLine("too low");
-            }
-
-
-
-
-        } while (attempted_number != 42);
-        Console.WriteLine("that's correct");
-     
-    }  }
-
-
+                                  
   
         
 
