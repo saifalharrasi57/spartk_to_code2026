@@ -26,26 +26,41 @@ class Program
         // {
         //     Console.WriteLine("you enter is not valid");
         // }
+        
+        
+        // //task2 
+        // int total = 0;
+        // Console.Write("enter a positive number N: ");
+        // int N = int.Parse(Console.ReadLine());
+        // for (int i = 0; i <= N; i += 1)
+        // {
+        //     total += i;
+        //    
+        //
+        // }
+        // Console.Write($"total = {total}");
+        //
+        //
 
 
 
-
-
-        /// task3
-        Console.Write("Dear user ,enter number to see its multiplication table  : ");
-       
-            int number = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= 10; i += 1)
-            {
-                int answer = number * i;
-                Console.WriteLine($"{number} * {i}= {answer}");
-            }
-        }
+        // /// task3
+        // Console.Write("Dear user ,enter number to see its multiplication table  : ");
+        //
+        //     int number = int.Parse(Console.ReadLine());
+        //     for (int i = 1; i <= 10; i += 1)
+        //     {
+        //         int answer = number * i;
+        //         Console.WriteLine($"{number} * {i}= {answer}");
+        //     }
+    }
      
     }
 
 
-    //task5
+    //task4
+
+
 
 
 
