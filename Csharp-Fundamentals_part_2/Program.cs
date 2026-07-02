@@ -53,12 +53,48 @@ class Program
         //         int answer = number * i;
         //         Console.WriteLine($"{number} * {i}= {answer}");
         //     }
-    }
+        
+        
+        // // task4
+        // Console.WriteLine("enter the password of spart to code");
+        // string pass = Console.ReadLine();
+        // while (pass != "Spark2026")
+        // {
+        //     Console.WriteLine("enter the password of spart to code");
+        //     pass = Console.ReadLine();
+        // }
+        //
+        // Console.WriteLine("Access Granted");
+        
+        //task5 
+        int attempt = 0;
+        int attempted_number;
+       
+        do
+        {
+            Console.Write("enter the secret number");               
+            attempted_number = int.Parse(Console.ReadLine());   
+
+            if (attempted_number > 42)
+            {
+                Console.WriteLine("too high");
+            }
+            else if (attempted_number < 42)
+            {
+                Console.WriteLine("too low");
+            }
+
+
+
+
+        } while (attempted_number != 42);
+        Console.WriteLine("that's correct");
      
-    }
+    }  }
 
 
-    //task4
+  
+        
 
 
 
