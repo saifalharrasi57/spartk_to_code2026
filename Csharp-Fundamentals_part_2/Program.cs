@@ -26,8 +26,8 @@ class Program
         // {
         //     Console.WriteLine("you enter is not valid");
         // }
-        
-        
+
+
         // //task2 
         // int total = 0;
         // Console.Write("enter a positive number N: ");
@@ -53,8 +53,8 @@ class Program
         //         int answer = number * i;
         //         Console.WriteLine($"{number} * {i}= {answer}");
         //     }
-        
-        
+
+
         // // task4
         // Console.WriteLine("enter the password of spart to code");
         // string pass = Console.ReadLine();
@@ -65,7 +65,7 @@ class Program
         // }
         //
         // Console.WriteLine("Access Granted");
-        
+
         //task5 
         //int attempt = 0;
         //int attempted_number;
@@ -87,7 +87,7 @@ class Program
         //} while (attempted_number != 42);
         //Console.WriteLine("that's correct");
         //
-        
+
         // task6
         // try
         // {
@@ -107,8 +107,8 @@ class Program
         // {
         //     Console.WriteLine("invalid input ");
         // }
-        
-        
+
+
         // task7
         // bool running = true;
         // do
@@ -138,24 +138,24 @@ class Program
         //     
         // }while (running == true) ;
         //
-        
+
         // task 8
-        Console.Write("enter a positive N number ");
-        int number = int.Parse(Console.ReadLine());
-        int total = 0;
-        for (int i = 0; i <= number; i++)
-        {
-            if (i % 2 == 0)
-            {
-                total += i;
-            }
-            
-         
+        //     Console.Write("enter a positive N number ");
+        //     int number = int.Parse(Console.ReadLine());
+        //     int total = 0;
+        //     for (int i = 0; i <= number; i++)
+        //     {
+        //         if (i % 2 == 0)
+        //         {
+        //             total += i;
+        //         }
+        //         
+        //      
+        // }
+        //     
+        //     Console.WriteLine($"the total even numbers = {total }");   
     }
-        
-        Console.WriteLine($"the total even numbers = {total }");   
-    }
-    } 
+} 
 
 
                                   
