@@ -89,31 +89,60 @@ class Program
         //
         
         // task6
-        try
+        // try
+        // {
+        //     Console.WriteLine("enter two number to devide ");
+        //     Console.Write("enter the first number : ");
+        //     int first_num = int.Parse(Console.ReadLine());
+        //     Console.Write("enter the second number : ");
+        //     double second_num = double.Parse(Console.ReadLine());
+        //     double result = first_num / second_num;
+        //     Console.WriteLine($"{first_num}/{second_num} = {result}");
+        // }
+        // catch (DivideByZeroException)
+        // {
+        //     Console.WriteLine("can't divide by zero");
+        // }
+        // catch (FormatException)
+        // {
+        //     Console.WriteLine("invalid input ");
+        // }
+        
+        
+        // task7
+        bool running = true;
+        do
         {
-            Console.WriteLine("enter two number to devide ");
-            Console.Write("enter the first number : ");
-            int first_num = int.Parse(Console.ReadLine());
-            Console.Write("enter the second number : ");
-            double second_num = double.Parse(Console.ReadLine());
-            double result = first_num / second_num;
-            Console.WriteLine($"{first_num}/{second_num} = {result}");
+            Console.WriteLine("enter your choice: ");
+            Console.WriteLine("1. say hello");
+            Console.WriteLine("2. hi it's weekend ");
+            Console.WriteLine("3.exit");
+            string choice = Console.ReadLine();
+            
+            switch (choice)
+            {
+                case "1":
+                    Console.WriteLine("hello");
+                    break;
+                case "2":
+                    Console.WriteLine("hi it's weekend");
+                    break;
+                case "3":
+                    running = false;
+                    break;
+
+                default:
+                    Console.WriteLine("invalid choice, try again");
+                    break;
+            }
+            
+        }while (running == true) ;
         }
-        catch (DivideByZeroException)
-        {
-            Console.WriteLine("can't divide by zero");
-        }
-        catch (FormatException)
-        {
-            Console.WriteLine("invalid input ");
-        }
-    }  } 
+    } 
+
 
                                   
   
         
-
-
-
 
 
