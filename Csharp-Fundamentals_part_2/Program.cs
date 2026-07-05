@@ -110,34 +110,51 @@ class Program
         
         
         // task7
-        bool running = true;
-        do
+        // bool running = true;
+        // do
+        // {
+        //     Console.WriteLine("enter your choice: ");
+        //     Console.WriteLine("1. say hello");
+        //     Console.WriteLine("2. hi it's weekend ");
+        //     Console.WriteLine("3.exit");
+        //     string choice = Console.ReadLine();
+        //     
+        //     switch (choice)
+        //     {
+        //         case "1":
+        //             Console.WriteLine("hello");
+        //             break;
+        //         case "2":
+        //             Console.WriteLine("hi it's weekend");
+        //             break;
+        //         case "3":
+        //             running = false;
+        //             break;
+        //
+        //         default:
+        //             Console.WriteLine("invalid choice, try again");
+        //             break;
+        //     }
+        //     
+        // }while (running == true) ;
+        //
+        
+        // task 8
+        Console.Write("enter a positive N number ");
+        int number = int.Parse(Console.ReadLine());
+        int total = 0;
+        for (int i = 0; i <= number; i++)
         {
-            Console.WriteLine("enter your choice: ");
-            Console.WriteLine("1. say hello");
-            Console.WriteLine("2. hi it's weekend ");
-            Console.WriteLine("3.exit");
-            string choice = Console.ReadLine();
-            
-            switch (choice)
+            if (i % 2 == 0)
             {
-                case "1":
-                    Console.WriteLine("hello");
-                    break;
-                case "2":
-                    Console.WriteLine("hi it's weekend");
-                    break;
-                case "3":
-                    running = false;
-                    break;
-
-                default:
-                    Console.WriteLine("invalid choice, try again");
-                    break;
+                total += i;
             }
             
-        }while (running == true) ;
-        }
+         
+    }
+        
+        Console.WriteLine($"the total even numbers = {total }");   
+    }
     } 
 
 
