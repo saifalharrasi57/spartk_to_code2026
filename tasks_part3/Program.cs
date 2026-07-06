@@ -72,20 +72,38 @@ class Program
         //     Console.WriteLine("to names are non-matched");
         // }
         //
-        // task 8
-        Console.Write("dear user, enter your membership start date in this format (e.g. \'2026-01-10\')");
-        DateTime start_date = DateTime.Parse(Console.ReadLine());
-        Console.Write("how many days does your membershib valid for ");
-        int days = int.Parse(Console.ReadLine());
-        DateTime expiry_date = start_date.AddDays(days);
-        if (expiry_date < DateTime.Today)
-        {
-            Console.WriteLine(" the memberships is expired");
-        }
-        else
-        {
-            Console.WriteLine(" the memberships is active ");
-        }
+        // // task 8
+        // Console.Write("dear user, enter your membership start date in this format (e.g. \'2026-01-10\')");
+        // DateTime start_date = DateTime.Parse(Console.ReadLine());
+        // Console.Write("how many days does your membershib valid for ");
+        // int days = int.Parse(Console.ReadLine());
+        // DateTime expiry_date = start_date.AddDays(days);
+        // if (expiry_date < DateTime.Today)
+        // {
+        //     Console.WriteLine(" the memberships is expired");
+        // }
+        // else
+        // {
+        //     Console.WriteLine(" the memberships is active ");
+        // }
+        
+        // task10
+        // Console.Write(" dear user, enter a full sentence ");
+        // string sent = Console.ReadLine();
+        // Console.Write("enter a word to find it's accurance index in the former sentance");
+        // string word = Console.ReadLine();
+        // int st_index = sent.IndexOf(word);
+        //         
+        // int last_index = sent.LastIndexOf(word);
+        // if (st_index == -1)
+        // {
+        //     Console.WriteLine($"not found");
+        // }
+        // else
+        // {
+        //     Console.WriteLine($"{st_index},{last_index}");
+        // }
+        //
 
 
 
