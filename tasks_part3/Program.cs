@@ -32,7 +32,22 @@ class Program
         // DateTime end_day = today.AddDays(trial_days);
         // Console.WriteLine($"the end date will be on {end_day.ToString("yyyy-MM-dd")}");
         
+        // task5
+        // Console.Write("enter your exam mark in decimal number");
+        // double grade = double.Parse(Console.ReadLine());
+        // if (grade >= 60)
+        // {
+        //     Console.WriteLine($"congratulation you have passed with grade {Math.Round(grade)}");
+        // }
+        // else
+        // {
+        //     Console.WriteLine($"ypu have failed in the exam ,with grade {Math.Round(grade)}");
+        // } 
         
+        // task
+        
+
+
 
 
 
