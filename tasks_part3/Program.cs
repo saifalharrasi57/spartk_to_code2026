@@ -44,8 +44,40 @@ class Program
         //     Console.WriteLine($"ypu have failed in the exam ,with grade {Math.Round(grade)}");
         // } 
         
-        // task
+        // task 6
+        // Console.Write("enter your password, dear user ");
+        // string pass = Console.ReadLine();
+        //
+        // if (pass.Length >= 8 && !(pass.Contains("password")))
+        // {
+        //     Console.WriteLine("succesfully loged in ");
+        // }
+        // else
+        // { Console.WriteLine("wrong password ");
+        //             
+        // }
+
+        // task7 
+        // Console.Write("enter your name for the first time ");
+        // string first_name = (Console.ReadLine()).ToUpper().Trim();
+        //
+        // Console.Write("enter your name for the first time ");
+        // string second_name = (Console.ReadLine()).ToUpper().Trim();
+        // if (first_name == second_name)
+        // {
+        //     Console.WriteLine("to names are matched");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("to names are non-matched");
+        // }
+        //
         
+
+
+
+
+
 
 
 
